@@ -9,7 +9,7 @@ WORKDIR /app
 COPY . .
 
 #compile the java program
-RUN javac fibonacci.java
+RUN javac Fibonacci.java
 
 #command to run the program
 CMD ["java","fibonacci"]
